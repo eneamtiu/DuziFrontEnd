@@ -7,16 +7,15 @@ function Navbar() {
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto">
         <NavLink to="/" exact className="link">
-          <GiBookmark className="logo" /> <span id="logo-name">e</span>
-          <span id="logo-text">Learning</span>
+          <GiBookmark className="logo" />
+          <span>e</span>
+          <span>Learning</span>
         </NavLink>
       </h1>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active">
-            <NavLink to="/schools" className="mr-5">
-              Register
-            </NavLink>
+          <li>
+            <NavLink to="/schools">Register</NavLink>
           </li>
           <li>
             <NavLink to="/schools">Login</NavLink>
