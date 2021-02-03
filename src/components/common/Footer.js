@@ -1,63 +1,103 @@
 import React from "react";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFacebookF, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faMapPin, faEnvelope, faPhoneAlt, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faFacebookF,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faMapPin,
+  faEnvelope,
+  faPhoneAlt,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(faFacebookF, faTwitter, faYoutube, faMapPin, faEnvelope, faPhoneAlt, faArrowRight)
+library.add(
+  faFacebookF,
+  faTwitter,
+  faYoutube,
+  faMapPin,
+  faEnvelope,
+  faPhoneAlt,
+  faArrowRight
+);
 
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="footer-container">
-        <section>
-          <article className="col-1">
-            <h3>Contact</h3>
-            <ul>
-              <li className="address">
-                <a href="/"><FontAwesomeIcon className="map-icon" icon={faMapPin}/>Orsova&nbsp;Street&nbsp;nr.&nbsp;104</a>
-              </li>
-              <li className="email">
-                <a href="/"><FontAwesomeIcon className="email-icon" icon={faEnvelope}/>office@outlook.com</a>
-              </li>
-              <li className="phone last">
-                <a href="/"><FontAwesomeIcon className="phone-icon" icon={faPhoneAlt}/>0213210153</a>
-              </li>
-            </ul>
-          </article>
-          <article className="col-2">
-            <h3>Main Subjects</h3>
-            <ul>
-              <li>
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>History</a>
-              </li>
-              <li>
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>IT</a>
-              </li>
-              <li>
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>Mathematics</a>
-              </li>
-              <li>
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>Astronomy</a>
-              </li>
-              <li>
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>Geography</a>
-              </li>
-              <li className="last">
-                <a href="/"><FontAwesomeIcon className="arrow-icon" icon={faArrowRight}/>Physics</a>
-              </li>
-            </ul>
-          </article>
-          <article className="col-3">
-            <h3>Social Media</h3>
-            <ul>
-            <li className="facebook"><a href="/"><FontAwesomeIcon className="facebook-icon" icon={faFacebookF}/>Facebook</a></li>
-              <li className="twitter"><a href="/"><FontAwesomeIcon className="twitter-icon" icon={faTwitter}/>Twitter</a></li>
-              <li className="youtube"><a href="/"><FontAwesomeIcon className="youtube-icon" icon={faYoutube}/>YouTube</a></li>
-            </ul>
-          </article>
-        </section>
-        <p className="copyright">2021 &copy; Designed by Coni &amp; Tudor</p>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>eLearning</h3>
+              <p>
+                Orșova Street, nr. 104 <br />
+                Orșova, MH 123432 <br />
+                România <br />
+                <br />
+                <strong>Phone:</strong> +40 123 456 789
+                <br />
+                <strong>Email:</strong> office@schoolsystem.com
+                <br />
+              </p>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Main subjects</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Hystory</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">IT</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Mathematics</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Astronomy</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Geography</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Physics</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Social Media</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Facebook</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Twitter</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">YouTube</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" />
+                <input type="submit" value="Subscribe" />
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
