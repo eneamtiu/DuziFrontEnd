@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <header className={path === "" ? "fixed-top" : "fixed-top shade"}>
+      <header id="header" class="fixed-top">
         <Navbar />
       </header>
       <main>
