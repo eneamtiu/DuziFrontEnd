@@ -38,16 +38,6 @@ const SchoolsPage = () => {
       <h3 className="display-3 font-weight-bolder" id="school-title">
         Schools
       </h3>
-      {/* <div className="underline mb-3"></div> */}
-      <Link
-        to={{
-          pathname: linkToAddSchool,
-        }}
-        className="btn mt-3 custom-btn2 mb-4"
-      >
-        Add School
-      </Link>
-
       <div className="school-cards row d-flex">
         {schools.map((school) => {
           const { id, name, photo } = school;
@@ -122,6 +112,15 @@ const SchoolsPage = () => {
           );
         })}
       </div>
+
+      <Link
+        to={{
+          pathname: linkToAddSchool,
+        }}
+        class="get-started-btn mb-5 mt-3"
+      >
+        Add School
+      </Link>
     </div>
   );
 };
