@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-6 footer-contact">
+              <div className="col-lg-4 col-md-6 footer-contact">
                 <h3>eLearning</h3>
                 <p>
                   Orșova Street, nr. 104 <br />
@@ -43,7 +43,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-lg-2 col-md-6 footer-links">
+              <div className="col-lg-4 col-md-6 footer-links">
                 <h4>Main subjects</h4>
                 <ul>
                   <li>
@@ -73,25 +73,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-lg-2 col-md-6 footer-links">
-                <h4>Social Media</h4>
-                <ul>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="/">Facebook</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="/">Twitter</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="/">YouTube</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-lg-5 col-md-6 footer-newsletter">
+              <div className="col-lg-4 col-md-6 footer-newsletter">
                 <h4>Join Our Newsletter</h4>
                 <p>
                   Tamen quem nulla quae legam multos aute sint culpa legam
@@ -116,7 +98,7 @@ const Footer = () => {
               <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-          <div className="social-links text-center text-md-right pt-3 pt-md-0">
+          <div className="own-social-links text-center text-md-right pt-3 pt-md-0">
             <a href="/" className="twitter">
               <i className="bx bxl-twitter"></i>
             </a>
