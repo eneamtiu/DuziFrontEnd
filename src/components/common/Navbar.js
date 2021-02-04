@@ -4,15 +4,15 @@ import { GiBookmark } from "react-icons/gi";
 
 function Navbar() {
   return (
-    <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto">
+    <div className="container d-flex align-items-center">
+      <h1 className="logo me-auto">
         <NavLink to="/" exact className="link">
           <GiBookmark className="logo" />
           <span>e</span>
           <span>Learning</span>
         </NavLink>
       </h1>
-      <nav class="nav-menu d-none d-lg-block">
+      <nav className="nav-menu d-none d-lg-block">
         <ul>
           <li>
             <NavLink to="/schools">Register</NavLink>

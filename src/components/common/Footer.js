@@ -11,7 +11,6 @@ import {
   faPhoneAlt,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 library.add(
   faFacebookF,
@@ -27,10 +26,10 @@ const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 footer-contact">
+        <div className="footer-top">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-3 col-md-6 footer-contact">
                 <h3>eLearning</h3>
                 <p>
                   Orșova Street, nr. 104 <br />
@@ -44,49 +43,55 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div class="col-lg-2 col-md-6 footer-links">
+              <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Main subjects</h4>
                 <ul>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Hystory</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Hystory</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">IT</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">IT</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i>
-                    <a href="#">Mathematics</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Mathematics</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i>
-                    <a href="#">Astronomy</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Astronomy</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i>
-                    <a href="#">Geography</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Geography</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Physics</a>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="/">Physics</a>
                   </li>
                 </ul>
               </div>
 
-              <div class="col-lg-2 col-md-6 footer-links">
+              <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Social Media</h4>
                 <ul>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Facebook</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Facebook</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">Twitter</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">Twitter</a>
                   </li>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="#">YouTube</a>
+                    <i className="bx bx-chevron-right"></i>
+                    <a href="/">YouTube</a>
                   </li>
                 </ul>
               </div>
 
-              <div class="col-lg-5 col-md-6 footer-newsletter">
+              <div className="col-lg-5 col-md-6 footer-newsletter">
                 <h4>Join Our Newsletter</h4>
                 <p>
                   Tamen quem nulla quae legam multos aute sint culpa legam
@@ -101,8 +106,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <a href="#" class="back-to-top">
-        <i class="bx bx-up-arrow-alt"></i>
+      <a href="/" className="back-to-top">
+        <i className="bx bx-up-arrow-alt"></i>
       </a>
       <div id="preloader"></div>
     </>

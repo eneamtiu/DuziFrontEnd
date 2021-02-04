@@ -22,12 +22,11 @@ import UpdateSubjectPage from "./pages/UpdateSubjectPage";
 import Footer from "./common/Footer";
 
 function App() {
-  const path = window.location.href.split("/")[3];
   useLocation();
 
   return (
     <>
-      <header id="header" class="fixed-top">
+      <header id="header" className="fixed-top">
         <Navbar />
       </header>
       <main>

@@ -117,7 +117,7 @@ const SchoolsPage = () => {
         to={{
           pathname: linkToAddSchool,
         }}
-        class="get-started-btn mb-5 mt-3"
+        className="get-started-btn mb-5 mt-3"
       >
         Add School
       </Link>
