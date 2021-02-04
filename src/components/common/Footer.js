@@ -25,81 +25,87 @@ library.add(
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>eLearning</h3>
-              <p>
-                Orșova Street, nr. 104 <br />
-                Orșova, MH 123432 <br />
-                România <br />
-                <br />
-                <strong>Phone:</strong> +40 123 456 789
-                <br />
-                <strong>Email:</strong> office@schoolsystem.com
-                <br />
-              </p>
-            </div>
+    <>
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h3>eLearning</h3>
+                <p>
+                  Orșova Street, nr. 104 <br />
+                  Orșova, MH 123432 <br />
+                  România <br />
+                  <br />
+                  <strong>Phone:</strong> +40 123 456 789
+                  <br />
+                  <strong>Email:</strong> office@schoolsystem.com
+                  <br />
+                </p>
+              </div>
 
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Main subjects</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Hystory</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">IT</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Mathematics</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Astronomy</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Geography</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Physics</a>
-                </li>
-              </ul>
-            </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Main subjects</h4>
+                <ul>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">Hystory</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">IT</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Mathematics</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Astronomy</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#">Geography</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">Physics</a>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Social Media</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Facebook</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">YouTube</a>
-                </li>
-              </ul>
-            </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Social Media</h4>
+                <ul>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">Facebook</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">Twitter</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i> <a href="#">YouTube</a>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Join Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
-              <form action="" method="post">
-                <input type="email" name="email" />
-                <input type="submit" value="Subscribe" />
-              </form>
+              <div class="col-lg-5 col-md-6 footer-newsletter">
+                <h4>Join Our Newsletter</h4>
+                <p>
+                  Tamen quem nulla quae legam multos aute sint culpa legam
+                  noster magna
+                </p>
+                <form action="" method="post">
+                  <input type="email" name="email" />
+                  <input type="submit" value="Subscribe" />
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+      <a href="#" class="back-to-top">
+        <i class="bx bx-up-arrow-alt"></i>
+      </a>
+      <div id="preloader"></div>
+    </>
   );
 };
 
