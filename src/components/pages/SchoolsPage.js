@@ -66,14 +66,14 @@ const SchoolsPage = () => {
                           to={{
                             pathname: `/schools/${id}/update`,
                           }}
-                          className="btn custom-btn mt-0 mr-3"
+                          className="get-started-btn"
                         >
                           Update
                         </Link>
                       </div>
                       <div className="trainer-rank d-flex align-items-center">
                         <button
-                          className="btn custom-btn mt-0"
+                          className="get-started-btn border-0"
                           onClick={() => {
                             swal2
                               .fire({
@@ -115,6 +115,17 @@ const SchoolsPage = () => {
             );
           })}
         </div>
+      </div>
+
+      <div className="text-center">
+        <Link
+          to={{
+            pathname: linkToAddSchool,
+          }}
+          className="get-started-btn mt-3"
+        >
+          Add School
+        </Link>
       </div>
     </section>
   );
