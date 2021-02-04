@@ -5,6 +5,9 @@ import { GiBookmark } from "react-icons/gi";
 function Navbar() {
   return (
     <div className="container d-flex align-items-center">
+      <button type="button" className="mobile-nav-toggle d-lg-none">
+        <i className="icofont-navigation-menu"></i>
+      </button>
       <h1 className="logo me-auto">
         <NavLink to="/" exact className="link">
           <GiBookmark className="logo" />

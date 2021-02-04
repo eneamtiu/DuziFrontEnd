@@ -106,9 +106,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
       <a href="/" className="back-to-top">
         <i className="bx bx-up-arrow-alt"></i>
       </a>
+
       <div id="preloader"></div>
     </>
   );
